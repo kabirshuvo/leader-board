@@ -160,9 +160,37 @@ hr {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
-  
+  align-items: center;
+  padding-right: 10px;
+}
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+.star img {
+  width: 12px;
+  height: 12px;
+}
+.ratting-point h5 {
+  padding-right: 40px;
+}
+.duration {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 7px 2px 7px;
+  background-color: #ffe4e8;
+  border-radius: 15px;
 }
 
+.duration img {
+  width: 16px;
+  height: 16px;
+}
 .blank {
   margin-bottom: 30px;
+}
+@media only screen and (ma) {
 }
